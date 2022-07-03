@@ -292,6 +292,11 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
+# OPlusExtras
+PRODUCT_PACKAGES += \
+    OPlusExtras \
+    tri-state-key-calibrate
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
@@ -303,6 +308,7 @@ PRODUCT_PACKAGES += \
     EvolutionSettingsResCommon \
     EvolutionSystemUIResCommon \
     FrameworksResTarget \
+    OPlusExtrasResCommon \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     WifiResTarget
